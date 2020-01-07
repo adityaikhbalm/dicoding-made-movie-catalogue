@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:defaultValue="en"
+        app:entries="@array/language_entries"
+        app:entryValues="@array/language_values"
+        app:key="@string/setting_language"
+        app:title="@string/language"
+        app:useSimpleSummaryProvider="true"
+        app:icon="@drawable/ic_language"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/daily_reminder_key"
+        app:summaryOn="@string/daily_reminder_summary_on"
+        app:summaryOff="@string/daily_reminder_summary_off"
+        app:title="@string/daily_reminder_title"
+        app:icon="@drawable/ic_clock"/>
+
+    <SwitchPreferenceCompat
+        app:key="@string/new_release_key"
+        app:summaryOn="@string/new_release_summary_on"
+        app:summaryOff="@string/new_release_summary_off"
+        app:title="@string/new_release_title"
+        app:icon="@drawable/ic_calendar"/>
+
+</PreferenceScreen>

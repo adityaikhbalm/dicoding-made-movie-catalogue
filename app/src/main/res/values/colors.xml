@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo">#2d3e50</color>
+
+    <color name="gradient_start_color">#37B86B</color>
+    <color name="gradient_center_color">#37B892</color>
+    <color name="gradient_end_color">#37B8B8</color>
+
+    <color name="favorite_selected">#E15050</color>
+
+    <color name="list_background">#148AC9</color>
+    <color name="search_background">#37B892</color>
+    <color name="notification_background">#ECC241</color>
+
+    <color name="high_dark">#1D2026</color>
+    <color name="medium_dark">#20242A</color>
+    <color name="low_dark">#2B3038</color>
+    <color name="base_dark">#181A1F</color>
+    <color name="high_white">#DEFFFFFF</color>
+    <color name="medium_white">#99FFFFFF</color>
+    <color name="low_white">#61FFFFFF</color>
+</resources>

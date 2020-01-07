@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_category"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/category"
+        app:showAsAction="always|collapseActionView">
+        <menu>
+            <group
+                android:id="@+id/menu_sort_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/popular_movies"
+                    android:title="@string/category_movie"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/now_playing"
+                    android:title="@string/category_tv_show"/>
+            </group>
+        </menu>
+    </item>
+</menu>

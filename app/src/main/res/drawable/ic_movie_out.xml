@@ -1,0 +1,37 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="42dp"
+            android:height="42dp"
+            android:viewportWidth="42"
+            android:viewportHeight="42">
+            <group android:name="group">
+                <path
+                    android:name="path_1"
+                    android:pathData="M 36.568 20.176 L 7.568 0.176 C 7.761 -0.035 6.863 -0.057 6.535 0.114 C 6.706 0.287 6 0.627 6 0.999 L 6 40.999 C 6 41.371 6.206 41.712 6.535 41.885 C 6.681 41.961 6.841 41.999 7 41.999 C 7.199 41.999 7.397 41.939 7.568 41.822 L 36.568 21.822 C 36.839 21.635 37 21.328 37 20.999 C 37 20.67 36.838 20.363 36.568 20.176 Z M 8 39.095 L 8 2.904 L 33.739 21 L 8 39.095 Z"
+                    android:fillColor="#FF000000"/>
+                <clip-path
+                    android:name="mask"
+                    android:pathData="M 0.5 42 L 0.5 0 L 0.5 0 L 0.5 42 Z"/>
+                <path
+                    android:name="path"
+                    android:pathData="M 36.568 20.176 L 7.568 0.176 C 7.261 -0.035 6.863 -0.057 6.535 0.114 C 6.206 0.287 6 0.627 6 0.999 L 6 40.999 C 6 41.371 6.206 41.712 6.535 41.885 C 6.681 41.961 6.841 41.999 7 41.999 C 7.199 41.999 7.397 41.939 7.568 41.822 L 36.568 21.822 C 36.839 21.635 37 21.328 37 20.999 C 37 20.67 36.838 20.363 36.568 20.176 Z"
+                    android:fillColor="#FF000000"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="mask">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="200"
+                android:valueFrom="M 5.5 42 L 5.5 0 L 37 0 L 37 42 Z"
+                android:valueTo="M 5.5 42 L 5.5 0 L 5.5 0 L 5.5 42 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:anim/anticipate_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

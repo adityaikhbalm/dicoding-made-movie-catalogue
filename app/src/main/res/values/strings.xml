@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">KAVIE</string>
+
+    <string name="category">Category</string>
+    <string name="category_movie">Movies</string>
+    <string name="category_tv_show">TV Show</string>
+
+    <string name="movies_menu">Movies</string>
+    <string name="favorites_menu">Favorites</string>
+    <string name="settings_menu">Settings</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="search_movie">Search Movies</string>
+    <string name="search_tv">Search Tv Show</string>
+    <string name="add_favorite">Add to favorite</string>
+    <string name="remove_favorite">Remove from favorite</string>
+
+    <string name="no_internet">There is no internet connection</string>
+    <string name="timeout">Connection timeout</string>
+    <string name="page_limit">The page has reached the limit</string>
+    <string name="not_found">Data not found</string>
+
+    <string name="votes">votes</string>
+    <string name="language">Language</string>
+    <string name="release_date">Release date</string>
+    <string name="overview">Overview</string>
+    <string name="cast">The Cast</string>
+    <string name="trailer">Trailers</string>
+    <string name="recommendation">Recommendations</string>
+    <string name="no_translations">There are no translations in this language</string>
+    <string name="no_favorite">There is no favorite list</string>
+
+    <string name="setting_language" translatable="false">language</string>
+
+    <string name="daily_reminder_key" translatable="false">daily_reminder</string>
+    <string name="daily_reminder_summary_off">Get notification reminder every @ 7AM</string>
+    <string name="daily_reminder_summary_on">You will get notification reminder every @ 7AM</string>
+    <string name="daily_reminder_title">Daily Reminder</string>
+
+    <string name="new_release_key" translatable="false">new_release</string>
+    <string name="new_release_summary_off">Get new notification release movies every @ 8AM</string>
+    <string name="new_release_summary_on">You will get notification new movies release every @ 8AM</string>
+    <string name="new_release_title">Release Today</string>
+    <string name="content_daily_reminder">Heyho, Don\'t forget to open KAVIE app today!</string>
+    <string name="title_new_release">New Release TODAY!</string>
+    <string name="content_new_release">%s released today. Tap for more info.</string>
+</resources>

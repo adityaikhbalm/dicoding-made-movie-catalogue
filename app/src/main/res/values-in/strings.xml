@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="category">Kategori</string>
+    <string name="category_movie">Film</string>
+    <string name="category_tv_show">Acara TV</string>
+
+    <string name="movies_menu">Film</string>
+    <string name="favorites_menu">Favorit</string>
+    <string name="settings_menu">Pengaturan</string>
+
+    <string name="refresh">Muat ulang</string>
+    <string name="search_movie">Cari Film</string>
+    <string name="search_tv">Cari Acara TV</string>
+    <string name="add_favorite">Tambahkan favorit</string>
+    <string name="remove_favorite">Hapus dari favorit</string>
+
+    <string name="no_internet">Tidak ada koneksi internet</string>
+    <string name="timeout">Waktu koneksi habis</string>
+    <string name="page_limit">Halaman telah mencapai batas</string>
+    <string name="not_found">Data tidak ditemukan</string>
+
+    <string name="votes">suara</string>
+    <string name="language">Bahasa</string>
+    <string name="release_date">Tanggal rilis</string>
+    <string name="overview">Deskripsi singkat</string>
+    <string name="cast">Pemeran</string>
+    <string name="trailer">Cuplikan video</string>
+    <string name="recommendation">Rekomendasi</string>
+    <string name="no_translations">Tidak ada terjemahan dalam bahasa ini</string>
+    <string name="no_favorite">Tidak ada daftar favorit</string>
+
+    <string name="daily_reminder_summary_off">Dapatkan notifikasi pengingat setiap 7 pagi</string>
+    <string name="daily_reminder_summary_on">Anda akan mendapatkan notifikasi pengigat setiap 7 pagi</string>
+    <string name="daily_reminder_title">Pengingat Harian</string>
+
+    <string name="new_release_summary_off">Dapatkan notifikasi rilis film terbaru setiap 8 pagi</string>
+    <string name="new_release_summary_on">Anda akan mendapatkan notifikasi rilis film terbaru setiap 8 pagi</string>
+    <string name="new_release_title">Rilis Baru</string>
+    <string name="content_daily_reminder">Hai. Jangan lupa buat buka app KAVIE hari ini ya!</string>
+    <string name="title_new_release">Film Terbaru HARI INI!</string>
+    <string name="content_new_release">Film %s baru saja dirilis. Klik untuk selebihnya.</string>
+</resources>

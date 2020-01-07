@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">FAVORITE KAVIE</string>
+    <string name="no_translations">There are no translations in this language</string>
+    <string name="no_favorite">There is no favorite list</string>
+</resources>

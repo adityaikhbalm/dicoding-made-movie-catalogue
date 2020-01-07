@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/medium_dark</item>
+        <item name="colorPrimaryDark">@color/medium_dark</item>
+        <item name="colorAccent">@color/medium_dark</item>
+        <item name="android:navigationBarColor">@color/high_dark</item>
+        <item name="android:windowBackground">@color/base_dark</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/medium_dark</item>
+        <item name="colorPrimaryDark">@color/medium_dark</item>
+        <item name="colorAccent">@color/low_white</item>
+        <item name="android:navigationBarColor">@color/high_dark</item>
+        <item name="android:windowBackground">@color/base_dark</item>
+        <item name="android:textColor">@color/high_white</item>
+        <item name="android:textColorSecondary">@color/medium_white</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle</item>
+        <item name="actionBarPopupTheme">@style/PopupMenu</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="NoActionBarReveal" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/high_dark</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/medium_dark</item>
+        <item name="colorPrimaryDark">@color/medium_dark</item>
+        <item name="colorAccent">@color/medium_white</item>
+        <item name="android:textColor">@color/high_white</item>
+        <item name="android:background">@color/medium_dark</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorControlNormal">@color/medium_white</item>
+        <item name="colorAccent">@color/medium_white</item>
+    </style>
+
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/high_white</item>
+        <item name="colorAccent">@color/high_white</item>
+        <item name="colorControlNormal">@color/high_white</item>
+        <item name="colorControlHighlight" tools:ignore="PrivateResource">@color/ripple_material_light</item>
+        <item name="android:colorBackground">@color/low_dark</item>
+    </style>
+</resources>
